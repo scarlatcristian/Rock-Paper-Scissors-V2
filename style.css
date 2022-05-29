@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img{
+    max-height: 150px;
+    max-width: 150px;
+}
+
+body{
+    background-color: rgb(77 173 91);
+}
+
+header{
+    background-color: #0075BE;
+    padding: 20px;
+}
+
+header > h1{
+    color: #FFCC00;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.score-board{
+    margin: 20px auto;
+    border: 3px solid red;
+    border-radius: 5px;
+    width: 250px;
+    color:#FFCC00;
+    font-size: 45px;
+    text-align: center;
+    padding: 15px 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+}
+
+.player{
+    background-color: #FFCC00;
+    color: #0075BE;
+    font-size: 15px;
+    padding: 2px 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    min-width: 100px;
+}
+
+#user{
+    position: absolute;
+    top: 34px;
+    left: -50px;
+}
+
+#computer{
+    position: absolute;
+    top: 34px;
+    right: -50px;
+}
+
+.result{
+    font-size: 40px;
+    color: red;
+}
+
+.result > p{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.choices{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.choice{
+    margin: 0px 15px;
+    padding: 50px;
+    display: inline-block;
+}
+
+.choice:hover{
+    cursor: pointer;
+}
+
+#pick{
+    text-align: center;
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    padding: 20px;
+}
